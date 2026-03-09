@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ubuntu Ultra Utility - Central de IA e Manutenção</title>
+    <style>
+        :root {
+            --ubuntu-orange: #E95420;
+            --ubuntu-purple: #772953;
+            --dark-bg: #300A24;
+            --light-text: #FFFFFF;
+        }
+        body {
+            font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--dark-bg);
+            color: var(--light-text);
+            text-align: center;
+        }
+        header {
+            padding: 80px 20px;
+            background: linear-gradient(135deg, var(--ubuntu-purple) 0%, var(--ubuntu-orange) 100%);
+        }
+        .logo {
+            width: 150px;
+            margin-bottom: 20px;
+            filter: drop-shadow(0 0 10px rgba(0,0,0,0.5));
+        }
+        h1 { font-size: 3rem; margin: 0; }
+        p.tagline { font-size: 1.5rem; opacity: 0.9; }
+        .download-buttons {
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .btn {
+            padding: 15px 30px;
+            font-size: 1.1rem;
+            text-decoration: none;
+            color: white;
+            border-radius: 8px;
+            transition: all 0.3s;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+        }
+        .btn-deb { background-color: var(--ubuntu-orange); }
+        .btn-appimage { background-color: #4CAF50; }
+        .btn:hover { transform: scale(1.05); filter: brightness(1.1); }
+        
+        .features {
+            padding: 60px 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+        .feature-card {
+            background: rgba(255,255,255,0.05);
+            padding: 30px;
+            border-radius: 12px;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        .feature-card i { font-size: 2rem; color: var(--ubuntu-orange); display: block; margin-bottom: 15px; }
+        
+        footer {
+            padding: 40px;
+            font-size: 0.9rem;
+            opacity: 0.7;
+            border-top: 1px solid rgba(255,255,255,0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo" class="logo">
+        <h1>Ubuntu Ultra Utility v2.9</h1>
+        <p class="tagline">O centralizador de ferramentas de IA, Docker e manutenção para o seu Ubuntu.</p>
+        
+        <div class="download-buttons">
+            <a href="https://github.com/SEU_USUARIO/ubuntu_ultra_utility/releases/download/v1.0.0/ubuntu_ultra_utility_1.0.0_amd64.deb" class="btn btn-deb">Download .DEB (Ubuntu Nativo)</a>
+            <a href="https://github.com/SEU_USUARIO/ubuntu_ultra_utility/releases/download/v1.0.0/Ubuntu_Ultra_Utility.AppImage" class="btn btn-appimage">Download AppImage (Portátil)</a>
+        </div>
+    </header>
+
+    <div class="features">
+        <div class="feature-card">
+            <h3>🧹 Limpeza de RAM</h3>
+            <p>Monitore e libere sua memória RAM com um único clique de forma segura.</p>
+        </div>
+        <div class="feature-card">
+            <h3>🤖 Ollama Manager</h3>
+            <p>Gerencie seus modelos de IA locais e o serviço Ollama facilmente.</p>
+        </div>
+        <div class="feature-card">
+            <h3>🐳 Docker Control</h3>
+            <p>Controle containers, limpe instâncias e gerencie seu Docker Engine.</p>
+        </div>
+        <div class="feature-card">
+            <h3>💻 IA CLIs</h3>
+            <p>Instale e atualize Gemini CLI, Claude Code e GitHub Copilot direto pelo app.</p>
+        </div>
+        <div class="feature-card">
+            <h3>🚀 Otimização de Sistema</h3>
+            <p>Limpeza profunda de logs e arquivos temporários do sistema Ubuntu.</p>
+        </div>
+    </div>
+
+    <footer>
+        © 2026 - Desenvolvido por Fabiano (Ubuntu Power User)<br>
+        Ubuntu Ultra Utility é um projeto de código aberto.
+    </footer>
+</body>
+</html>

@@ -1,0 +1,19 @@
+id: io.github.ubuntu_ultra_utility
+runtime: org.freedesktop.Platform
+runtime-version: '23.08'
+sdk: org.freedesktop.Sdk
+command: ubuntu_ultra_utility
+finish-args:
+  - --share=ipc
+  - --socket=x11
+  - --socket=wayland
+  - --share=network
+  - --device=dri
+modules:
+  - name: ubuntu_ultra_utility
+    buildsystem: simple
+    build-commands:
+      - cp -r * /app/bin/
+    sources:
+      - type: dir
+        path: AppDir/usr/bin

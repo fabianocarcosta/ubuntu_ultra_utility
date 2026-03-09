@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Ubuntu Ultra Utility
+Comment=IA, Docker e Manutenção de Sistema
+Exec=ubuntu_ultra_utility
+Icon=ubuntu_ultra_utility
+Categories=Utility;System;
+Terminal=false
