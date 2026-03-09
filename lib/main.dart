@@ -468,7 +468,8 @@ class AboutTab extends StatelessWidget {
               child: Column(
                 children: [
                   Text("Desenvolvido por:", style: TextStyle(fontWeight: FontWeight.bold)),
-                  Text("Fabiano (Ubuntu Power User)", style: TextStyle(fontSize: 18)),
+                  Text("Fabiano Carvalho da Costa", style: TextStyle(fontSize: 18)),
+                  Text("fabianocarvalhodacosta@gmail.com", style: TextStyle(color: Colors.blueAccent)),
                   SizedBox(height: 10),
                   Text("Objetivo:", style: TextStyle(fontWeight: FontWeight.bold)),
                   Text("Centralizar ferramentas de IA, Docker e", textAlign: TextAlign.center),

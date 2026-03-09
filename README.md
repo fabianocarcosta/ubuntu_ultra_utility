@@ -21,5 +21,5 @@ Visite nossa **[Página Oficial (GitHub Pages)](https://SEU_USUARIO.github.io/ub
 - Linux Native APIs
 
 ## 👨‍💻 Desenvolvedor
-Criado por **Fabiano (Ubuntu Power User)**.
+Criado por **Fabiano Carvalho da Costa**.
 "Automatize o chato para focar no que importa."

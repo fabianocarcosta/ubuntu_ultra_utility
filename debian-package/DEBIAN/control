@@ -3,6 +3,6 @@ Version: 1.0.0
 Section: utils
 Priority: optional
 Architecture: amd64
-Maintainer: Fabiano <fabiano@ubuntu.local>
+Maintainer: Fabiano Carvalho da Costa <fabianocarvalhodacosta@gmail.com>
 Depends: libgtk-3-0, libglib2.0-0, libblkid1, liblzma5
 Description: Ubuntu Ultra Utility - Centralizador de ferramentas de IA e manutenção.
